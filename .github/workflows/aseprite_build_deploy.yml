@@ -6,7 +6,7 @@ on:
       force_build:
         description: 'Force build even if version is cached'
         required: false
-        default: 'true'
+        default: 'false'
   schedule:
     - cron: '0 0 * * *'
   push:
